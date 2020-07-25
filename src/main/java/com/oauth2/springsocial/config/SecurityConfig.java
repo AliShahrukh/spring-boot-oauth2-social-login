@@ -1,5 +1,6 @@
 package com.oauth2.springsocial.config;
 
+import com.oauth2.springsocial.security.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
