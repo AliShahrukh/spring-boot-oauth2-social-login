@@ -1,6 +1,13 @@
 package com.oauth2.springsocial.security;
 
+import com.oauth2.springsocial.config.AppProperties;
+import io.jsonwebtoken.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
+
+import java.util.Date;
 
 @Service
 public class TokenProvider {
